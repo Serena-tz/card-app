@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view wx:for="{{list}}" class="item">
+    <view>{{item.title}}</view>
+    <view>{{item.time}}</view>
+  </view>
+  <!-- 点击按钮后跳转到留言页 -->
+  <image class="img" src="../../images/edit.png" mode="aspectFill" bindtap="jump" class="btn"></image>
+</view>

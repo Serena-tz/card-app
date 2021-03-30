@@ -1,0 +1,8 @@
+<!--pages/add/add.wxml-->
+<input class="ipt" model:value="{{ipt}}" placeholder="请输入内容" type="text"/>
+<view class="btns">
+<!--  bindtap="add"绑定事件的方式 -->
+  <button bindtap="notok" class="notok">取消</button>
+  <button class="ok" bindtap="add">确定</button>
+
+</view>

@@ -6,7 +6,3 @@
 .gray{
   color: #999;
 }
-.link{
-  margin: 20px;
-  color: aqua;
-}

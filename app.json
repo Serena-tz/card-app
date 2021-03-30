@@ -1,8 +1,11 @@
 {
   "pages": [
+    "pages/list/list",
+    "pages/add/add",
     "pages/index/index",
-    "pages/detail/detail",
-    "pages/msg/msg"
+    "pages/detail/detail"
+    
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

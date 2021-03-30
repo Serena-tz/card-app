@@ -1,0 +1,17 @@
+/* pages/add/add.wxss */
+.ipt{
+  border: 2rpx solid #dedede;
+  height: 90rpx;
+  padding-left: 20rpx;
+  font-size: 16px;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.btns .ok,.btns .notok{
+  background-color: #f8f8f8;
+  border: #e3e3e3 1px solid;
+  border-radius: 5px;
+  font-weight: normal;
+}
