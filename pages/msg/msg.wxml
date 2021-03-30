@@ -1,0 +1,7 @@
+<!--pages/msg/msg.wxml-->
+<view class="tc title">
+  <text>张艺兴的留言板</text>
+</view>
+<view class="content">
+  <view class="item" wx:for="{{msg}}" wx:key="index">{{item}}</view>
+</view>

@@ -1,0 +1,15 @@
+/* pages/index/index.wxss
+本页面样式
+*/
+.box{
+  color: red;
+}
+.img{
+  width: 100%;
+}
+.title{
+  font-weight: bold;
+}
+.info{
+  margin-top: 20px;
+}

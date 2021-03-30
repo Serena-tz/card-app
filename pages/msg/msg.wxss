@@ -1,0 +1,13 @@
+/* pages/msg/msg.wxss */
+.title{
+  margin: 20px;
+  font-weight: bold;
+}
+.content{
+  padding: 20px;
+}
+.item{
+  border: #f30 1px solid;
+  margin-bottom: 5px;
+  padding: 10px 5px;
+}

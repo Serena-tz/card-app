@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<image class="img" src="../../images/01.jpg" mode="aspectFill"></image>
+<view class="tc gray">望其项背照</view>
+<!-- 简单了 -->
+<div class="info">
+  <view><text class="title">职业：</text>{{zyx.job}}</view>
+  <view><text class="title">生日:</text>{{zyx.bd}}</view>
+  <view><text class="title">个人信息：</text>{{zyx.info}}</view>
+  <!-- for循环指令
+
+-->
+  <view><text class="title">代表作品：</text><text wx:for="{{zyx.work}}" wx:key="index">《{{item}}》</text></view>
+  <view><text class="title">简介：</text>{{zyx.pro}}</view>
+</div>
+
+<navigator url="/pages/detail/detail" class="link">跳转到详情页</navigator>
+<navigator url="/pages/msg/msg" class="link">跳转到留言板</navigator>
